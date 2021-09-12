@@ -20,7 +20,7 @@ namespace SessionDemo_NEW
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>(); // New commit in brand new branch
                 });
     }
 }
