@@ -31,7 +31,7 @@ namespace SessionDemo_NEW
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage(); // Hello! this is a brand new comment
             }
             else
             {
